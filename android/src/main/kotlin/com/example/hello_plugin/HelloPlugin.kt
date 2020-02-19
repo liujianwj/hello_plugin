@@ -35,7 +35,7 @@ public class HelloPlugin: FlutterPlugin, MethodCallHandler {
   override fun onMethodCall(@NonNull call: MethodCall, @NonNull result: Result) {
     if (call.method == "getPlatformVersion") {
      // result.success("Android ${android.os.Build.VERSION.RELEASE}")
-      result.success("Android heheheh")
+      result.success("Android heheheh111")
     } else {
       result.notImplemented()
     }
